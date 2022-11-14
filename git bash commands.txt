@@ -1,0 +1,17 @@
+open a gitbash terminal in the target project folder
+
+git init - initializes emptry repo
+git add . - adds all files
+git status - shows status on files
+git commit -m "first commit" - commits changes and you can add a comment in quotes
+git remote add origin https://github.com/dh-tester/crud-web-app.git
+git push -u origin master - writes files to repo
+DONE
+
+
+if files in your project change, you can update githib with these commands:
+
+git status - see which files changed
+git commit -m "second commit"
+git push
+DONE
